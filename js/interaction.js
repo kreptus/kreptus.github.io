@@ -7,13 +7,12 @@ function modeswitch() {
 	} 
 }
 
-function chBackground() {
-	var container = document.getElementById("background-container");
-	if (container.style.backgroundImage.match("./img/lightmode.webp")) {
-		container.style.backgroundImage = "url('./img/darkmode.jpg')";
-	} else {
-		container.style.backgroundImage = "url('./img/lightmode.webp')";
-	}
+function openNav() {
+	document.getElementById("contents").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("contents").style.width = "0";
 }
 
 function functionName(s) {
