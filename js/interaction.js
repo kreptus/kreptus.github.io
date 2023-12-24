@@ -1,1 +1,7 @@
-document.getElementById("demo").innerHTML = "Hello JS!";
+function modeswitch() {
+	document.getElementById("background").src = "./img/darkmode.jpg"
+}
+
+function functionName(s) {
+	alert("Hello, " + s + "!");
+}

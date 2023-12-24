@@ -1,13 +1,17 @@
 <html>
 
 <head>
-<title>Page Title</title>
+	<script type="text/javascript" src="./js/interaction.js"></script>
+	<title>Page Title</title>
 </head>
 
 <body>
-<h1>Hello world</h1>
-<p>Hello test</p> 
-<button type="button" onclick=<script src="js/interaction.js></script>Click me!</button>
+	<img id="background" src="./img/lightmode.webp" onclick="modeswitch()" />
+	<h1>Hello world</h1>
+	<p>What is your name? <input id="insertName" /></p> 
+	<button onclick="functionName(insertName.value)">
+		Say hello
+	</button>
 </body>
 
 </html>
