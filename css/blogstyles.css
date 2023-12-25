@@ -1,0 +1,11 @@
+.blogbody {
+	background-color: #fcffbc;
+}
+
+.blogbody a:focus {
+	color: darkgreen;
+}
+
+.extended {
+	color: black;
+}
