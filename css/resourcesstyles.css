@@ -1,0 +1,37 @@
+h3.title {
+	font-family: STIX Two Text, georgia, times, verdana, arial, serif;
+  	color: black;
+  	font-weight: normal;
+  	font-size: 1.375em;
+}
+
+h4.authors {
+	font-family: STIX Two Text, georgia, times, serif;
+  	font-size: .9em;
+  	color: darkgreen;
+  	font-weight: normal;
+  	margin: .5em 0;
+}
+
+article.arxiv {
+	padding-left: 10px;
+	padding-bottom: 15px;
+	border-top: 1px solid black;
+}
+
+
+.resources a:focus {
+	color: darkgreen;
+}
+
+p.abs {
+	padding-left: 20px;
+	max-width: 550px;
+}
+a {
+	color: darkred;
+}
+
+a.pdf {
+	padding-left: 15px;
+}

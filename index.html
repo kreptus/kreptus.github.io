@@ -5,9 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Eso's personal landing page." />
 	<!-- <meta http-equiv="refresh" content="3;url=https://www.mozilla.org" /> -->
+	<link rel="stylesheet" href="css/resourcesstyles.css" />
 	<link rel="stylesheet" href="css/sidebar.css" />
-	<link rel="stylesheet" href="css/navbar.css" />
 	<script type="text/javascript" src="js/interaction.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  	<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  	</script>
 </head>
 
 <body>
@@ -20,13 +24,71 @@
 
 	<div id="main"> 
 		<span style="font-size=30px;cursor:pointer" onclick="openNav()">&#9776; Contents</span> 
-		<nav class="crumbs">
-			<ol>
-				<li class="crumb">Home</li>
-			</ol>
-		</nav>
 
 		<h1>Home</h1>
+		<div id="resources" class="resources">
+			<h2>Resources</h2>
+<!--		<article class="arxiv">
+				<h3 class="title"></h3>
+				<h4 class="authors"></h4>
+				<p class="abs">
+					
+				</p>
+				<a href="" target="_blank">source</a>
+				<a href="" target="_blank" class="pdf">pdf</a>
+			</article>-->
+
+			<article class="arxiv">
+				<h3 class="title">The universal cover of the real projective line</h3>
+				<h4 class="authors">Jack Morava</h4>
+				<p class="abs">
+					We construct an interesting topological cover of the multiplicative group of the real line, related to Tate's elliptic curve with \(q=e^{\pi}\). We use the language of homological algebra, 2D Lorentz geometry and high-school trigonometry; the intent is expository but the suggested applications may be unusual. 
+				</p>
+				<a href="https://arxiv.org/abs/2311.06676" target="_blank">source</a>
+				<a href="https://arxiv.org/pdf/2311.06676" target="_blank" class="pdf">pdf</a>
+			</article>
+
+			<article class="arxiv">
+				<h3 class="title">Category Theory Using String Diagrams</h3>
+				<h4 class="authors">Daniel Marsden</h4>
+				<p class="abs">
+					In work of Fokkinga and Meertens a calculational approach to category theory is developed. The scheme has many merits, but sacrifices useful type information in the move to an equational style of reasoning. By contrast, traditional proofs by diagram pasting retain the vital type information, but poorly express the reasoning and development of categorical proofs. In order to combine the strengths of these two perspectives, we propose the use of string diagrams, common folklore in the category theory community, allowing us to retain the type information whilst pursuing a calculational form of proof. These graphical representations provide a topological perspective on categorical proofs, and silently handle functoriality and naturality conditions that require awkward bookkeeping in more traditional notation.<br>
+					Our approach is to proceed primarily by example, systematically applying graphical techniques to many aspects of category theory. We develop string diagrammatic formulations of many common notions, including adjunctions, monads, Kan extensions, limits and colimits. We describe representable functors graphically, and exploit these as a uniform source of graphical calculation rules for many category theoretic concepts. These graphical tools are then used to explicitly prove many standard results in our proposed diagrammatic style. 
+				</p>
+				<a href="https://arxiv.org/abs/1401.7220" target="_blank">source</a>
+				<a href="https://arxiv.org/pdf/1401.7220" target="_blank" class="pdf">pdf</a>
+			</article>
+
+			<article class="arxiv">
+				<h3 class="title">Diagrammatic category theory</h3>
+				<h4 class="authors">Kenji Nakahira</h4>
+				<p class="abs">
+					In category theory, the use of string diagrams is well known to aid in the intuitive understanding of certain concepts, particularly when dealing with adjunctions and monoidal categories. We show that string diagrams are also useful in exploring fundamental properties of basic concepts in category theory, such as universal properties, (co)limits, Kan extensions, and (co)ends. For instance, string diagrams are utilized to represent visually intuitive proofs of the Yoneda lemma, necessary and sufficient conditions for being adjunctions, the fact that right adjoints preserve limits (RAPL), and necessary and sufficient conditions for having pointwise Kan extensions. We also introduce a method for intuitively calculating (co)ends using diagrammatic representations and employ it to prove several properties of (co)ends and weighted (co)limits. This paper proposes that using string diagrams is an effective approach for beginners in category theory to learn the fundamentals of the subject in an intuitive and understandable way. 
+				</p>
+				<a href="https://arxiv.org/abs/2307.08891" target="_blank">source</a>
+				<a href="https://arxiv.org/pdf/2307.08891" target="_blank" class="pdf">pdf</a>
+			</article>
+
+			<article class="arxiv">
+				<h3 class="title">An Introduction to String Diagrams for Computer Scientists</h3>
+				<h4 class="authors">Robin Piedeleu, Fabio Zanasi</h4>
+				<p class="abs">
+					This document is an elementary introduction to string diagrams. It takes a computer science perspective: rather than using category theory as a starting point, we build on intuitions from formal language theory, treating string diagrams as a syntax with its semantics. After the basic theory, pointers are provided to contemporary applications of string diagrams in various fields of science. 
+				</p>
+				<a href="https://arxiv.org/abs/2305.08768" target="_blank">source</a>
+				<a href="https://arxiv.org/pdf/2305.08768" target="_blank" class="pdf">pdf</a>
+			</article>
+
+
+
+			<article class="arxiv">
+				<h3 class="title">Which came first, set theory or logic?</h3>
+				<h4 class="authors">J. Julian Pulgarín, Andrés F. Uribe-Zapata</h4>
+				<p class="abs">The construction of first-order logic and set theory gives rise to apparent circularities of mutual dependence, making it unclear which can act as a self-contained starting point in the foundation of mathematics. In this paper, we carry out a metatheoretic and finitistic development of a first-order logical system in which we define formal set theory (ZFC). We contend that the techniques employed in constructing this system offer a philosophically sound basis for introducing ZFC and proceeding with the conventional formal development of mathematics. Lastly, by examining the chronology of the aforementioned construction, we attempt to answer the titular question.</p>
+				<a href="https://arxiv.org/abs/2311.11032" target="_blank">source</a>     
+				<a href="https://arxiv.org/pdf/2311.11032" target="_blank" class="pdf">pdf</a>
+			</article>
+		</div>
 	</div>
 </body>
 </html>

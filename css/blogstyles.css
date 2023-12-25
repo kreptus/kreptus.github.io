@@ -1,5 +1,6 @@
 .blogbody {
 	background-color: #fcffbc;
+	max-width: 550px;
 }
 
 .blogbody a:focus {
