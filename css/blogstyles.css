@@ -1,12 +1,31 @@
+body {
+	font-family: Lucida Bright, Georgia, sans-serif;
+}
+
+h3.title {
+	font-family: STIX Two Text, georgia, times, verdana, arial, serif;
+  	color: black;
+  	font-weight: normal;
+  	font-size: 1.375em;
+}
+
 .blogbody {
-	background-color: #fcffbc;
-	max-width: 550px;
+	/*background-color: #fcffbc;*/
+	padding-left: 10px;
+	padding-bottom: 15px;
+	border-top: 1px solid black;
 }
 
 .blogbody a:focus {
 	color: darkgreen;
 }
 
+.blogtext {
+	padding-left: 20px;
+	max-width: 550px;
+}
+
 .extended {
 	color: black;
 }
+

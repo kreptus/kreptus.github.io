@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Eso's personal landing page." />
+	<link rel="stylesheet" href="../../../css/navbar.css" />
+	<link rel="stylesheet" href="../../../css/blogstyles.css" />
+    <title>Eso's Blogs</title>
+	<script src="../../../js/load-mathjax.js" async></script>
+</head>
+
+<body>
+	<div id="main"> 
+		<nav class="crumbs">
+			<ol>
+				<li class="crumb"><a href="../../../index.html">Home</a></li>
+				<li class="crumb"><a href="../../index.html">Blogs</a></li>
+				<li class="crumb"><a href="#">2023</a></li>
+				<li class="crumb"><a href="#">12</a></li>
+			</ol>
+		</nav>
+		<div id="content" class="blogbody">
+			<h3 class="title">
+				Tensor Products
+			</h3>
+			
+			<div class="blogtext">
+				<p>
+					Let $U$ and $V$ be vector spaces. A tensor product is a vector space denoted $U\otimes V$ with an associated bilinear map $b$ mapping pairs $(u,v) \in U \times V$ to an element in $U\otimes V$ denoted $u \otimes v$, such that for any vector space $W$ and for any bilinear map $f \colon U \times V \to W$, there exists a unique linear map $\bar{f} \colon U\otimes V \to W$ such that $f = \bar{f}b$, and the pair $(U\otimes V, b)$ is unique (up to isomorphism) satisfying this (universal) property.
+				</p>
+				<p>
+					From this we see that the bilinear map out of $U \times V$ is the same thing as the linear map out of $U \otimes V$, which reduces the study of bilinear maps to the study of linear maps. 
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
