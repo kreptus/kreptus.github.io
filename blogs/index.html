@@ -42,13 +42,13 @@
 			<h3 class="title">The Universal Property of The Cone $(X\times Y, p_1, p_2)$</h3>
 			<div class="blogtext">
 				<p>
-					Given two vector spaces $X$ and $Y$, the cone $$(X\times Y, p_1\colon X\times Y \to X, p_2\colon X\times Y \to Y)$$ where $p_1$ and $p_2$ are natural projections has the universal property that for any cone $(V,f_1\colon V \to X,f_2\colon V \to Y)$ there exists a unique linear map $f \colon V \to X\times Y$ such that $p_1f = f_1$ and $p_2f = f_2$. 
+					Given two vector spaces $X$ and $Y$, the cone $$(X\times Y, p_1\colon X\times Y \to X, p_2\colon X\times Y \to Y)$$ where $p_1$ and $p_2$ are canonical projections has the universal property that for any cone $(V,f_1\colon V \to X,f_2\colon V \to Y)$ there exists a unique linear map $f \colon V \to X\times Y$ such that $p_1f = f_1$ and $p_2f = f_2$. 
 				</p>
 				<p>
 					The linear map $f$ sends a vector $v$ to pairs $(f_1(v), f_2(v))$. Suppose there was another map $f'$ that did the same. Then, since $(p_1, p_2)  = 1_{X \times Y}$, it follows that $$f' = (p_1,p_2)f' = (p_1f', p_2f') = (f_1, f_2) = f.$$
 				</p>
 				<p>
-					To show uniqueness of the cone with this property, suppose there was another cone $(P', p_1', p_2')$ with the same property. Then, there is a unique linear map $f \colon P' \to X\times Y$ such that $p_1f = p_1'$ and $p_2f = p_2'$. Similarly, we get a unique linear map $f' \colon X\times Y \to P'$ with $p_1'f' = p_1$ and $p_2'f' = p_2$. Now we can compose the two maps to get $f'f\colon P' \to P'$. Since, for the cone $(P', p_1', p_2')$, we have that $$p_1'f'f = p_1f = p_1' = p_1'1_{P'}$$ and $$p_2'f'f = p_2f = p_2' = p_2'1_{P'},$$ uniqueness follows from universality, leading to $f'f = 1_{P'}$. Following similar steps, we can show $ff' = 1_{X\times Y}$. Hence $f$ is an isomorphism.
+					To show uniqueness of the cone with this property, suppose there was another cone $(P', p_1', p_2')$ with the same property. Then, there is a unique linear map $f \colon P' \to X\times Y$ such that $p_1f = p_1'$ and $p_2f = p_2'$. Similarly, we get a unique linear map $f' \colon X\times Y \to P'$ with $p_1'f' = p_1$ and $p_2'f' = p_2$. Now we can compose the two maps to get $f'f\colon P' \to P'$. Since, for the cone $(P', p_1', p_2')$, we have that $$p_1'f'f = p_1f = p_1' = p_1'1_{P'}$$ and $$p_2'f'f = p_2f = p_2' = p_2'1_{P'},$$ uniqueness follows from universality, leading to $f'f = 1_{P'}$. Following similar steps, we can show $ff' = 1_{X\times Y}$. Hence $f$ and $f'$ are mutually inverse, so $X \times Y \cong P'$.
 				</p>
 			</div>
 			<div class="extended">
